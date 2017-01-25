@@ -8,6 +8,7 @@
 6. netty提供服务器，客户端的请求由spring的DispatcherServlet处理；
 
 运行：
+
 1 本地启动zookeeper，例如OSX系统，用homebrew装的zookeeper，则是：
 brew services start zookeeper （作为一个后台服务）或者 zkServer start
 
@@ -18,3 +19,5 @@ brew services start zookeeper （作为一个后台服务）或者 zkServer star
 4 MyServer的main方法;
 
 5 在浏览器请求http://localhost:8080/项目路径/test/
+
+（dubbo集群版在分支dubbo-cluster-1）

@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+<<<<<<< Updated upstream
 ### Java template
 *.class
 
@@ -32,3 +33,51 @@ buildNumber.properties
 DubboCommon/dubbo.common.iml
 DubboConsumer/dubbo.consumer.iml
 DubboProvider/dubbo.provider.iml
+=======
+*.class
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/mongoSettings.xml
+*.iws
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.gitignore
+.idea/
+DubboCommon/dubbo.common.iml
+DubboCommon/target/dubbo.common-1.0-SNAPSHOT.jar
+DubboCommon/target/generated-sources/
+DubboCommon/target/maven-archiver/
+DubboCommon/target/surefire/
+DubboConsumer/dubbo.consumer.iml
+DubboConsumer/target/dubbo.consumer-1.0-SNAPSHOT.jar
+DubboConsumer/target/generated-sources/
+DubboConsumer/target/generated-test-sources/
+DubboConsumer/target/maven-archiver/
+DubboConsumer/target/surefire-reports/
+DubboConsumer/target/surefire/
+DubboProvider/dubbo.provider.iml
+DubboProvider/target/dubbo.provider-1.0-SNAPSHOT.jar
+DubboProvider/target/generated-sources/
+DubboProvider/target/maven-archiver/
+DubboProvider/target/surefire/
+>>>>>>> Stashed changes

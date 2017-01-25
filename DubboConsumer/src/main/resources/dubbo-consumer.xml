@@ -8,6 +8,6 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
      <dubbo:application name="dubbo-consumer" />
-     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183" />
+     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
      <dubbo:reference interface="dubbo.common.service.HelloService" id="helloService" />
 </beans>

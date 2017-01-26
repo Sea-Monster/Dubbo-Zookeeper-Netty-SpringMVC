@@ -19,10 +19,10 @@ brew services start zookeeper （作为一个后台服务）或者zkServer start
 ## 2017-01-25 dubbo 改为dubbo 集群：
 参考：http://www.cnblogs.com/yjmyzz/p/4587663.html
 
-1. 在一台机器上安装3个zookeeper，模拟3个zookeeper组成的集群，以我自己本机为例，分别解压到
-/usr/local/seamonster/zookeeper-1
-/usr/local/seamonster/zookeeper-2
-/usr/local/seamonster/zookeeper-3
+1. 在一台机器上安装3个zookeeper，模拟3个zookeeper组成的集群，以我自己本机为例，分别解压到 ***
+/usr/local/seamonster/zookeeper-1 ***
+/usr/local/seamonster/zookeeper-2 ***
+/usr/local/seamonster/zookeeper-3 ***
 
 2. 创建每个目录下conf/zoo.cfg文件：
 cp zoo_sample.cfg zoo.cfg
